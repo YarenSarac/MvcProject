@@ -7,13 +7,13 @@ namespace DataAccessLayer.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class newmigration : IMigrationMetadata
+    public sealed partial class mig_writertitle_add : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(newmigration));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(mig_writertitle_add));
         
         string IMigrationMetadata.Id
         {
-            get { return "202201281946422_newmigration"; }
+            get { return "202202042308342_mig_writertitle_add"; }
         }
         
         string IMigrationMetadata.Source

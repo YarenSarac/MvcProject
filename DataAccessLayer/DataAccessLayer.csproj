@@ -67,9 +67,9 @@
     <Compile Include="EntityFramework\EfContentDal.cs" />
     <Compile Include="EntityFramework\EfHeadingDal.cs" />
     <Compile Include="EntityFramework\EfWriterDal.cs" />
-    <Compile Include="Migrations\202201281946422_newmigration.cs" />
-    <Compile Include="Migrations\202201281946422_newmigration.designer.cs">
-      <DependentUpon>202201281946422_newmigration.cs</DependentUpon>
+    <Compile Include="Migrations\202202042308342_mig_writertitle_add.cs" />
+    <Compile Include="Migrations\202202042308342_mig_writertitle_add.designer.cs">
+      <DependentUpon>202202042308342_mig_writertitle_add.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -85,8 +85,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202201281946422_newmigration.resx">
-      <DependentUpon>202201281946422_newmigration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202202042308342_mig_writertitle_add.resx">
+      <DependentUpon>202202042308342_mig_writertitle_add.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
