@@ -8,7 +8,7 @@
 <h2>Index</h2>
 <br />
 
-<table border="1">
+<table class="table table-bordered">
     <th>Başlıklar</th>
      <tr>
          <td>ID</td>
@@ -21,7 +21,7 @@
         <tr>
             <td>@item.HeadingID</td>
             <td>@item.HeadingName</td>
-            <td>@item.CategoryID</td>
+            <td>@item.Category.CategoryName</td>
 
 
 
@@ -29,3 +29,5 @@
         </tr>
     }
 </table>
+<br />
+<a href="/Heading/AddHeading/" class="btn btn-info">Yeni Başlık Girişi</a>
